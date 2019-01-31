@@ -1,0 +1,37 @@
+Putting together all the unix tools we have so far, we can begin to address linguistically interesting phenomena.
+
+You can complete this in groups of 2-3.  It will be due Thursday, 2/8, before class, to be handed in via blackboard.
+
+A list of baby names from the 1990 census is given here https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html and also attached here.  It is also split up between male names and female names.  We are going to explore the phonological shape of names in English.
+
+We will take the set of names as a whole and not consider how popular the names are (as of yet).
+
+Task 1.   Simply consider the different lengths that names come from “AN” to “FRANCHESCA”.  Measuring the names simply in length of letters, what length is the most frequent, least frequent?  Comment on short-comings of this method.
+
+Task 2. Consider the syllable structure of the names, that is, AN = VC while FRANCHESCA = CCVCCVCCV.  Devise an algorithm to convert names into their appropriate syllable structures.  We don’t need a whole lot of background knowledge to tackle this, what is specified on say https://en.wikipedia.org/wiki/Syllable is enough.Which syllable structures are the most frequent, least frequent? Comment on short-comings of this method and your particular algorithm.
+
+Task 3.  Now consider phonetic characteristics of the English names.  In particular, explore the IPA chart for consonants and vowels.  Useful discussion on “General American” pronunciation is here: https://en.wikipedia.org/wiki/General_American
+
+Example of phonetic classification:
+
+Manner of articulation for consonants:
+
+Stops: /p, t, k, b, d, g/
+
+Fricatives: /f, v, θ, ð, s, z, ʃ, ʒ, h/
+
+Affricates: / ʧ, ʤ/
+
+Nasals: /m, n, ŋ/ (sometimes called “nasal stops”)
+
+Liquids: /l, r/
+
+Glides: /w, y, hw/
+
+Height of vowel: i is high, a is low, etc.
+
+Devise an algorithm to convert names into the corresponding sets of phonetic features for manner of articulation and height of vowel.
+
+What sequences of phonetic features are the most frequent, least frequent? Comment on short-comings of this method and your particular algorithm.
+
+Task 4 for 450 students, or for the curious among you: Generalize what you have done and compare to either the other two census files on https://www.census.gov/topics/population/genealogy.html, or for the adventurous, compare with another language.
